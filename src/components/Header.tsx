@@ -131,9 +131,8 @@ export default function Header() {
                     <Image
                       src="/images/logo.png"
                       alt="STB Law home"
-                      width={180}
+                      width={124}
                       height={45}
-                      style={{ height: "auto" }}
                       priority
                     />
                   </Link>
@@ -211,8 +210,8 @@ export default function Header() {
                       <Image
                         src="/images/top-nav-map-icon.png"
                         alt="map icon"
-                        width={24}
-                        height={24}
+                        width={53}
+                        height={27}
                       />
                     </Link>
                   </div>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "../styles/top-nav.css";
 
 export const metadata: Metadata = {
   title: "William Bartlett",

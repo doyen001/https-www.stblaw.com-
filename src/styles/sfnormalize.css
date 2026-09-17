@@ -1,0 +1,638 @@
+﻿@media screen {
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  audio,
+  canvas,
+  video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+  }
+  [hidden] {
+    display: none;
+  }
+  audio:not([controls]) {
+    display: none;
+    height: 0;
+  }
+  html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 100%;
+  }
+  body,
+  figure,
+  form {
+    margin: 0;
+  }
+  a:focus {
+    outline: none;
+  }
+  a:active,
+  a:hover {
+    outline: none;
+  }
+  abbr[title] {
+    border-bottom: 1px dotted;
+  }
+  b,
+  strong {
+    font-weight: bold;
+  }
+  blockquote {
+    margin: 1em 40px;
+  }
+  dfn {
+    font-style: italic;
+  }
+  p,
+  pre {
+    margin: 1em 0;
+  }
+  pre {
+    white-space: pre-wrap;
+    white-space: pre;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+  }
+  q {
+    quotes: none;
+  }
+  q:before,
+  q:after {
+    content: '';
+    content: none;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub,
+  sup {
+    position: relative;
+    vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+  }
+  sup {
+    top: -0.5em;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  dl,
+  menu,
+  ol,
+  ul {
+    margin: 1em 0;
+  }
+  dd {
+    margin: 0 0 0 40px;
+  }
+  menu,
+  ol,
+  ul {
+    /*padding: 0 0 0 40px; messing up formatting */
+  }
+  nav ul,
+  nav ol {
+    list-style: none;
+    list-style-image: none;
+  }
+  img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+  }
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  legend {
+    *margin-left: -7px;
+    padding: 0;
+    border: 0;
+    white-space: normal;
+  }
+  button,
+  input,
+  select,
+  textarea {
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+    font-size: 100%;
+    outline: none;
+  }
+  button,
+  input {
+    line-height: normal;
+  }
+  button,
+  select {
+    text-transform: none;
+  }
+  button,
+  html input[type='button'],
+  input[type='reset'],
+  input[type='submit'] {
+    -webkit-appearance: button;
+    *overflow: visible;
+    cursor: pointer;
+  }
+  button[disabled],
+  html input[disabled] {
+    cursor: default;
+  }
+  input[type='checkbox'],
+  input[type='radio'] {
+    box-sizing: border-box;
+    padding: 0;
+    *width: 13px;
+    *height: 13px;
+  }
+  input[type='search'] {
+    box-sizing: content-box;
+  }
+  input[type='search']::-webkit-search-cancel-button,
+  input[type='search']::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  textarea {
+    overflow: auto;
+    vertical-align: top;
+  }
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  /*  ------------------------------------------------------------------------*/
+  /* #endregion */
+  /*  ------------------------------------------------------------------------*/
+  /* #region typography and color defaults */
+  /*  ------------------------------------------------------------------------*/
+  html,
+  button,
+  input,
+  select,
+  textarea {
+    color: #46321a;
+  }
+  mark {
+    background: #ffff00;
+    color: #000000;
+  }
+  fieldset {
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+    border: 1px solid #c0c0c0;
+  }
+  hr {
+    height: 0;
+  }
+  /*  ------------------------------------------------------------------------*/
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Georgia, serif;
+  }
+  code,
+  kbd,
+  pre,
+  samp {
+    font-size: 1em;
+    font-family: monospace, serif;
+  }
+
+  /*  --------------------------------------------------
+  :: RadDockZone Formatting
+  -------------------------------------------------- */
+
+  body.standard.sfPageEditor.zeContentMode div#ScriptWrapper {
+    display: block;
+    background: #cccccc;
+    text-align: center;
+    font-size: small;
+    -moz-opacity: 0.4;
+    opacity: 0.4;
+  }
+  body.standard.sfTemplateEditor .zeContentMode div#cpw_breadcrumbwrapper,
+  body.standard.sfPageEditor.zeContentMode #MainContentWrapper,
+  body.standard.sfTemplateEditor .zeContentMode #cpw_page_header,
+  body.standard.sfTemplateEditor .zeContentMode #cpw_header,
+  body.standard.sfPageEditor.zeContentMode #tab-1 {
+    display: block;
+
+    text-align: center;
+    font-size: small;
+  }
+
+  body.standard.sfPageEditor.zeContentMode .topShadow.light {
+    display: none;
+    margin-top: 20px;
+  }
+  body.standard.sfPageEditor.zeContentMode .homeBodCont {
+    margin-top: 100px;
+  }
+  body.standard.sfPageEditor.zeContentMode #caro {
+    margin-bottom: 75px;
+  }
+
+  body.standard.sfPageEditor.zeContentMode div#ScriptWrapper:before {
+    content: '-- ONLY PLACE STYLE WIDGETS AND SCRIPT WIDGETS BELOW THIS AREA --';
+  }
+  body.standard.sfTemplateEditor.zeContentMode div#cpw_breadcrumbwrapper:before {
+    content: '-- ONLY PLACE BREADCRUMB CONTROL BELOW THIS AREA --';
+  }
+
+  body.standard.sfPageEditor.zeContentMode #MainContentWrapper:before {
+    content: '-- MAIN CONTENT GOES BELOW THIS AREA --';
+  }
+  body.standard.sfTemplateEditor.zeContentMode #cpw_page_header:before {
+    content: '-- PAGE HEADER CONTENT SUCH AS PAGE TILE CONTROL GOES BELOW THIS AREA --';
+  }
+  body.standard.sfTemplateEditor.zeContentMode #cpw_header:before {
+    content: '-- SITE HEADER CONTENT SUCH AS LOGO AND NAVIGATION CONTROLS GOES BELOW THIS AREA --';
+  }
+
+  body.standard.sfPageEditor.zeContentMode #tabbed-content-1:before {
+    content: '-- ONLY PLACE OVERVIEW INFORMATION AND WIDGETS IN THIS AREA --';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs .tabbed-content-1:before {
+    content: '-- TAB 1 -- ';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs .tabbed-content-2:before {
+    content: '-- TAB 2 -- ';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs .tabbed-content-3:before {
+    content: '-- TAB 3 --';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs .tabbed-content-4:before {
+    content: '-- TAB 4 --';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs .tabbed-content-5:before {
+    content: '-- TAB 5 --';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs .tabbed-content-6:before {
+    content: '-- TAB 6 --';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs .tabbed-content-7:before {
+    content: '-- TAB 7 --';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs .tabbed-content-8:before {
+    content: '-- TAB 8 --';
+  }
+
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs.summernet-tabs .tabbed-content-1:before {
+    content: '-- Welcome -- ';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs.summernet-tabs .tabbed-content-3:before {
+    content: '-- Paperwork -- ';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs.summernet-tabs .tabbed-content-4:before {
+    content: '-- Housing --';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs.summernet-tabs .tabbed-content-5:before {
+    content: '-- Fellowships --';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs.summernet-tabs .tabbed-content-6:before {
+    content: '-- City Links --';
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs.summernet-tabs .tabbed-content-7:before {
+    content: "-- FAQ's --";
+  }
+  body.standard.sfPageEditor.zeContentMode .extranet-tabs.summernet-tabs .tabbed-content-2:before {
+    content: '-- Start Date --';
+  }
+
+  body.sfPageEditor #cpw_headerwrapper {
+    position: relative;
+    height: auto;
+    padding-top: 12px;
+  }
+  body.sfPageEditor .top-nav-container {
+    position: relative;
+  }
+  body.sfPageEditor #FooterWrapper {
+    display: none;
+  }
+
+  body.zeContentMode .RadDock .generic-2col-container-left .extranet-tabs .tabbed-content-tabs ul li {
+    display: block;
+  }
+  body.zeContentMode
+    .RadDock
+    .generic-2col-container-left
+    .extranet-tabs
+    .tabbed-content-tabs
+    ul
+    li.tabbed-content-tab-1 {
+    display: block;
+  }
+  body.zeContentMode
+    .RadDock
+    .generic-2col-container-left
+    .extranet-tabs
+    .tabbed-content-tabs
+    ul
+    li.tabbed-content-tab-2 {
+    display: block;
+  }
+  body.zeContentMode
+    .RadDock
+    .generic-2col-container-left
+    .extranet-tabs
+    .tabbed-content-tabs
+    ul
+    li.tabbed-content-tab-3 {
+    display: block;
+  }
+  body.zeContentMode
+    .RadDock
+    .generic-2col-container-left
+    .extranet-tabs
+    .tabbed-content-tabs
+    ul
+    li.tabbed-content-tab-4 {
+    display: block;
+  }
+  body.zeContentMode
+    .RadDock
+    .generic-2col-container-left
+    .extranet-tabs
+    .tabbed-content-tabs
+    ul
+    li.tabbed-content-tab-5 {
+    display: block;
+  }
+  body.zeContentMode
+    .RadDock
+    .generic-2col-container-left
+    .extranet-tabs
+    .tabbed-content-tabs
+    ul
+    li.tabbed-content-tab-6 {
+    display: block;
+  }
+
+  body.zeContentMode .RadDock #tabbed-content-1 {
+    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    z-index: 9000;
+    display: block;
+  }
+  body.sfTemplateEditor.zeContentMode .RadDock #tabbed-content-2 {
+    background-color: #a1d0ff;
+    margin-bottom: 15px;
+    display: block;
+  }
+  body.sfTemplateEditor.zeContentMode .RadDock #tabbed-content-3 {
+    background-color: #ffa1a1;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  body.zeContentMode .RadDock .tabbed-content-container.extranet-tabs {
+    border-top: 1px dotted #cccccc;
+    margin-top: 6px;
+  }
+
+  body.zeContentMode .RadDock .extranet-tabs .tabbed-content-1 {
+    background-color: #efefef;
+    margin-bottom: 15px;
+    z-index: 9000;
+    display: block;
+  }
+  body.zeContentMode .RadDock .extranet-tabs .tabbed-content-2 {
+    background-color: #a1d0ff;
+    margin-bottom: 15px;
+    display: block;
+  }
+  body.zeContentMode .RadDock .extranet-tabs .tabbed-content-3 {
+    background-color: #ffa1a1;
+    margin-bottom: 15px;
+    display: block;
+  }
+  body.zeContentMode .RadDock .extranet-tabs .tabbed-content-4 {
+    background-color: #b6ff00;
+    margin-bottom: 15px;
+    display: block;
+  }
+  body.zeContentMode .RadDock .extranet-tabs .tabbed-content-5 {
+    background-color: #00ffff;
+    margin-bottom: 15px;
+    display: block;
+  }
+  body.zeContentMode .RadDock .extranet-tabs .tabbed-content-6 {
+    background-color: #bd00ff;
+    margin-bottom: 15px;
+    display: block;
+  }
+  body.zeContentMode .RadDock .extranet-tabs .tabbed-content-7 {
+    background-color: #ffd800;
+    margin-bottom: 15px;
+    display: block;
+  }
+  body.zeContentMode .RadDock .extranet-tabs .tabbed-content-section table {
+    background-color: #fffff;
+  }
+
+  body.sfPageEditor .RadDock .extranet-tabs .tabbed-content-section {
+    display: block;
+  }
+  body.sfPageEditor .RadDock .sf_cols:before {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+  }
+  body.sfPageEditor .RadDock .tabbed-content-beijing:before {
+    content: '-- OFFICE: Beijing --';
+  }
+  body.sfPageEditor .RadDock .tabbed-content-hongkong:before {
+    content: '-- OFFICE: Hong Kong --';
+  }
+  body.sfPageEditor .RadDock .tabbed-content-houston:before {
+    content: '-- OFFICE: Houston --';
+  }
+  body.sfPageEditor .RadDock .tabbed-content-london:before {
+    content: '-- OFFICE: London --';
+  }
+  body.sfPageEditor .RadDock .tabbed-content-losangeles:before {
+    content: '-- OFFICE: Los Angeles --';
+  }
+  body.sfPageEditor .RadDock .tabbed-content-newyork:before {
+    content: '-- OFFICE: New York --';
+  }
+  body.sfPageEditor .RadDock .tabbed-content-paloalto:before {
+    content: '-- OFFICE: Palo Alto --';
+  }
+  body.sfPageEditor .RadDock .tabbed-content-saopaulo:before {
+    content: '-- OFFICE: Sao Paulo --';
+  }
+  body.sfPageEditor .RadDock .tabbed-content-seoul:before {
+    content: '-- OFFICE: Seoul --';
+  }
+  body.sfPageEditor .RadDock .tabbed-content-tokyo:before {
+    content: '-- OFFICE: Tokyo --';
+  }
+  body.sfPageEditor .RadDock .tabbed-content-boston:before {
+    content: '-- OFFICE: Boston --';
+  }
+  body.sfPageEditor .RadDock .tabbed-content-washingtondc:before {
+    content: '-- OFFICE: Washington, D.C. --';
+  }
+  body.zeContentMode #SIDE_NEWS_CONTENT .RadDockZone:before {
+    content: '-- Promotional widgets in right column --';
+  }
+  body.zeContentMode #MAIN_NEWS_CONTENT .RadDockZone:before {
+    content: '-- Promotional widgets under the news content --';
+  }
+
+  body.zeContentMode .RadDock .tabbed-content-beijing,
+  body.zeContentMode .RadDock .tabbed-content-hongkong,
+  body.zeContentMode .RadDock .tabbed-content-houston,
+  body.zeContentMode .RadDock .tabbed-content-london,
+  body.zeContentMode .RadDock .tabbed-content-losangeles,
+  body.zeContentMode .RadDock .tabbed-content-newyork,
+  body.zeContentMode .RadDock .tabbed-content-paloalto,
+  body.zeContentMode .RadDock .tabbed-content-saopaulo,
+  body.zeContentMode .RadDock .tabbed-content-seoul,
+  body.zeContentMode .RadDock .tabbed-content-tokyo,
+  body.zeContentMode .RadDock .tabbed-content-boston,
+  body.zeContentMode .RadDock .tabbed-content-washingtondc {
+    margin-bottom: 40px;
+    border: 4px double #46321a;
+    padding-top: 6px;
+  }
+
+  .ScriptWrapper,
+  .sfDisplayNone {
+    display: none;
+  }
+  .sfimageWrp {
+    overflow-x: hidden;
+  }
+  .sfimageWrp img,
+  .sfContentBlock img {
+    /* this is messing up the thumbnails 
+  max-width: 100%; */
+    width: auto;
+    height: auto;
+  }
+  .sfimageWrp img {
+    max-width: 100%;
+  }
+  .chromeframe {
+    margin: 0.2em 0;
+    padding: 0.2em 0;
+    background: #cccccc;
+    color: #000000;
+  }
+  .sfLbl {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .sfClearfix:before,
+  .sfClearfix:after,
+  .sfprofileArticleLikeWrp:before,
+  .sfprofileArticleLikeWrp:after,
+  .sfprofileListLikeWrp:before,
+  .sfprofileListLikeWrp:after {
+    display: table;
+    content: '';
+  }
+  .sfClearfix:after,
+  .sfprofileArticleLikeWrp:after,
+  .sfprofileListLikeWrp:after {
+    clear: both;
+  }
+  .sfClearfix,
+  .sfprofileArticleLikeWrp,
+  .sfprofileListLikeWrp {
+    -ms-zoom: 1;
+    zoom: 1;
+  }
+  .sfDisplayNone {
+    display: none;
+  }
+  .ir {
+    overflow: hidden;
+    border: 0;
+    background-color: transparent;
+    *text-indent: -9999px;
+  }
+  .ir:before {
+    display: block;
+    width: 0;
+    height: 150%;
+    content: '';
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .visible {
+    visibility: visible;
+  }
+  .hidden {
+    display: none !important;
+    visibility: hidden;
+  }
+  .visuallyhidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+  }
+  .visuallyhidden.focusable:active,
+  .visuallyhidden.focusable:focus {
+    position: static;
+    overflow: visible;
+    clip: auto;
+    margin: 0;
+    width: auto;
+    height: auto;
+  }
+  .invisible {
+    visibility: hidden;
+  }
+  .clearfix:before,
+  .clearfix:after {
+    display: table;
+    content: ' ';
+  }
+  .clearfix:after {
+    clear: both;
+  }
+  .clearfix {
+    *zoom: 1;
+  }
+  .browsehappy {
+    margin: 0.2em 0;
+    padding: 0.2em 0;
+    background: #cccccc;
+    color: #000000;
+  }
+}

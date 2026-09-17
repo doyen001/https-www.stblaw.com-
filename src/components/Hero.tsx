@@ -4,7 +4,7 @@ import { profile } from "@/data/profile";
 
 export default function Hero() {
   return (
-    <header id="cpw_page_header">
+    <header id="cpw_page_header" className="cpw_page_header">
       <div className="hero-area-container">
         <div className="hero-area-content-outer">
           <div className="hero-area-content-middle">

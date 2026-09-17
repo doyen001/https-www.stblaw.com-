@@ -3,7 +3,7 @@ import { profile } from "@/data/profile";
 
 export default function Breadcrumb() {
   return (
-    <aside id="BreadcrumbWrapper" aria-label="Breadcrumb Navigation">
+    <aside id="BreadcrumbWrapper" aria-label="Breadcrumb Navigation" className="breadcrumbWrapper">
       <div className="container">
         <div className="sfBreadcrumbWrp">
           <nav className="breadcrumb-nav" aria-label="Breadcrumb">
