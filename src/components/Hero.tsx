@@ -15,6 +15,7 @@ export default function Hero() {
                   alt={profile.name}
                   width={820}
                   height={520}
+                  style={{ height: "auto" }}
                   priority
                 />
               </div>

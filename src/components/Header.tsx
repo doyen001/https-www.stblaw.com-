@@ -25,6 +25,7 @@ export default function Header() {
                       alt="STB Law home"
                       width={180}
                       height={45}
+                      style={{ height: "auto" }}
                       priority
                     />
                   </Link>
